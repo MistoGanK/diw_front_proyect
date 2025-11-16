@@ -624,7 +624,7 @@ button:focus-visible{
     margin-top: 10px;
 }
 .footer_nav_section:first-child ul {
-     display: flex; 
+    display: flex; 
 } 
 .footer_nav_section a {
     color: var(--bgc-white);
