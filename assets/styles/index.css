@@ -261,7 +261,7 @@ button:focus-visible{
         opacity: 90%;
     }
     .explore_section_article_header h3{
-        box-shadow: 0 2px 0 0 var( --bgc-black);
+        box-shadow: 0 2px 0 0 var(--bgc-black);
         transition: text-decoration var(--transition-speed-fast);
     }
 }
