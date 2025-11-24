@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded',(e)=>{
 
 // href
     // Favorite Icons ref
-const iconFavEmpty = '/assets/icons/favorite_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
-const iconFavFill = '/assets/icons/favorite_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
+const iconFavEmpty = '../assets/icons/favorite_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
+const iconFavFill = '../assets/icons/favorite_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
     // Like/Dislike ref
-const iconLikedEmpty = '/assets/icons/thumb_up_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
-const iconDislikedEmpty = '/assets/icons/thumb_down_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
-const iconLikedFilled = '/assets/icons/thumb_up_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
-const iconDislikedFilled = '/assets/icons/thumb_down_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
+const iconLikedEmpty = '../assets/icons/thumb_up_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
+const iconDislikedEmpty = '../assets/icons/thumb_down_500dp_0A090C_FILL0_wght400_GRAD0_opsz48.webp';
+const iconLikedFilled = '../assets/icons/thumb_up_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
+const iconDislikedFilled = '../assets/icons/thumb_down_500dp_0A090C_FILL1_wght400_GRAD0_opsz48.webp';
 //<--- HTML elements declaration --->
 
 //HTML containers
