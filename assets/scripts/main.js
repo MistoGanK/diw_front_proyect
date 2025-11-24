@@ -126,7 +126,7 @@ function toggleLikeReview(event){
     console.log(siblingImg);
     const targetImg = targetButton.querySelector('.like_img');
     const pElement = targetButton.querySelector('p');
-    if (targetImg.src.includes(iconLikedEmpty)){
+    if (targetImg.src.includes('FILL0')){
         targetImg.src = iconLikedFilled;
         siblingImg.src = iconDislikedEmpty;
         let currentLikes = parseInt(pElement.textContent);
@@ -154,7 +154,7 @@ function toggleDislikeReview(event){
     const targetImg = targetButton.querySelector('.dislike_img');
     const wasLikedFilled = siblingImg.src.includes('FILL1');
     const pElement = targetButton.querySelector('p');
-    if (targetImg.src.includes(iconDislikedEmpty)){
+    if (targetImg.src.includes('FILL0')){
         targetImg.src = iconDislikedFilled;
         siblingImg.src = iconLikedEmpty;
         let currentLikes = parseInt(pElement.textContent);
